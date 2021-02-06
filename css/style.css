@@ -1,0 +1,305 @@
+
+body { 
+      
+     font-family: 'Poppins', sans-serif;
+    
+}
+a:hover{ outline: none; }
+a:active{ outline: none; }
+
+.hide { display: none; }
+
+.clr{ clear: both; }
+
+.header{ color: #000;
+    border-bottom: 1px solid #efefef;
+    padding: 10px 2px;
+    background:#fff; }
+
+.logo a{     font-size: 45px;
+    color: #101e7d;
+    font-weight: 700; text-transform: uppercase;
+    text-decoration: none; }
+
+.menu_r{ margin-bottom: 24px; }
+.menu_r ul{ float: right;
+    margin-bottom: 0px;
+    margin-top: 26px;}
+.menu_r ul li{ display: inline-block; }
+.menu_r ul li a{     color: #333;
+    text-decoration: none;
+    font-size: 16px; font-weight: 500;
+    text-transform: uppercase; border-radius: 100px;
+    padding: 8px 31px }
+
+.menu_r ul li a.active{ color: #333;   }
+.menu_r ul li a:hover{ color: #333;  }
+
+.mid_block_n_c{}
+
+.top_m_banner{ padding: 80px 0;
+    background: url(../images/main_banner_bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-color: #edf4ff;
+    padding-bottom: 18px;
+     }
+
+
+.banner1_img{ padding-top: 25px;text-align: center; }
+.banner1_img_t{ text-align: left; color: #fff; }
+.banner1_img_t h2{font-size: 54px;
+    text-transform: uppercase;
+    font-weight: 700;}
+
+.banner1_img_t h2 span{ color: #f8931d;
+    font-weight: 700;}
+.banner1_img_t p{font-size: 34px; line-height: 38px; margin-bottom: 15px; margin-top: 30px;
+    font-weight: 200; text-transform: uppercase;}
+
+.banner1_img_t p span{ font-weight: 600; }
+
+
+ a.blue_btn_n{background: #3a8cff;
+    color: #fff;
+    padding: 12px 30px;font-weight: 500;
+    border-radius: 82px;
+    text-transform: uppercase;margin: 18px 0px;
+    display: inline-block; border: 0px;
+    font-size: 19px;}
+
+ a.blue_btn_n:hover{background: #fff;
+    color: #2c3991;
+    padding: 12px 30px;
+    border-radius: 82px;  text-decoration: none;
+    text-transform: uppercase;margin: 18px 0px;
+    display: inline-block;border: 0px;
+   }
+
+ a.blue_btn_nn{background: #fff;
+    color: #000;  
+    padding: 12px 30px;
+    border-radius: 82px; font-weight: 500;
+    text-transform: uppercase;margin: 38px 0px 18px 0px;
+    display: inline-block; border:0px;
+    font-size: 19px;}
+
+.our_partner {
+    margin-top: 165px; padding-bottom: 25px;
+} 
+ 
+
+.exchange_three_blc_m{padding: 82px 0;text-align: center; }
+.exchange_three_blc_m h2{font-size: 57px; color: #1a2469; 
+    text-transform: uppercase;
+    font-weight: 700;}
+.exchange_three_blc_m p {
+   font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    width: 56%;
+      margin: 0 auto;
+}
+.mid_block_n_c {
+        
+    border-radius: 35px; background: #fff;
+    padding: 25px 0px;
+    
+}
+
+.active_blc{ background: #a8c4e6;  }
+
+.mid_block_n_c:hover{ background: #a8c4e6;}
+
+
+
+
+.mid_block_n_c h3{ font-size: 17px; font-weight: 400;text-transform: uppercase;}
+.mid_block_n_c p { 
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #122786;}
+
+
+.how_it_work{ background: url(../images/mid_bg.jpg);
+    background-size: cover; text-align: center; padding-top: 124px;
+    background-position: top center;}
+
+.how_it_work h2{ font-size: 54px; color: #fff; text-transform: uppercase; padding-bottom: 35px; font-weight: 700; }
+ 
+.the_pools{ border-top: 1px solid #efefef; color: #fff; padding: 14px 2px; } 
+.the_pools h3{ font-size: 19px; font-weight: 300; }
+.the_pools h3 span a{ font-size: 19px;
+    font-weight: 300;
+    background: #5b942f;
+    color: #fff;
+    padding: 11px 43px;
+    border-radius: 88px;
+    text-transform: uppercase; }
+.the_pools h3 span{ float:right;
+}
+ 
+.footer{ padding: 35px 5px; }
+.footer ul{ float:left; margin-bottom: 0px; padding-left: 0px; margin-left: 0px;
+    margin-top: 0px;}
+.footer ul li{ display: inline-block; }
+.footer ul li a{     color: #333;
+    text-decoration: none;
+    font-size: 16px; font-weight: 500;
+    text-transform: uppercase; border-radius: 100px;
+    padding: 0px 14px }
+.copyright_btm { text-align: right; }
+.copyright_btm a{color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;}
+
+
+
+
+  
+@media only screen and (max-width: 768px) {
+ 
+.banner1_img img{ width: 100%; }
+.logo{ text-align: center; }
+.logo a {
+    font-size: 35px;
+}
+.menu_r ul li a{ font-size: 14px; padding: 8px 9px; }
+.menu_r ul {
+       padding: 0; text-align: center; width: 100%;
+}
+.menu_r ul li{ margin-bottom: 16px; }
+.banner1_img_t h2 { font-size:45px;}
+.banner1_img_t p {    font-size: 22px;
+    line-height: 31px;
+    margin-top: 21px;
+}
+
+.top_m_banner {
+    padding: 43px 0;
+}
+a.blue_btn_n {
+      padding: 9px 24px;
+     margin: 18px 0px;
+     border: 0px;
+    font-size: 15px;
+}
+ 
+a.blue_btn_nn{     font-size: 17px;
+    padding: 11px 26px;}
+ 
+  
+.mid_block_n_c {
+      padding: 25px 18px; margin-bottom: 25px;
+} 
+
+ .the_pools{ text-align: center; }
+.the_pools h3 span {
+    float: right;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    margin-top: 19px;
+}
+.exchange_three_blc_m {
+    padding: 40px 0;
+    text-align: center;
+}
+.copyright_btm {
+    text-align: center; margin-bottom: 15px;
+}
+.copyright_btm a{ font-size: 13px; }
+.footer ul{ text-align: center; font-size: 13px; margin-bottom: 15px;}
+.footer ul li a{font-size: 13px;}
+
+}
+
+
+
+/* Timer Layout */
+.center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+}
+
+.timer { 
+    width: 100%;
+    margin: auto auto 5rem;
+    color: #3a8cff;
+    place-items: center;
+    padding: 1rem;
+    background: #ddd;
+    border-radius: 2rem;
+} 
+
+.timer .wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    height: 100px;
+    width: 40%;
+    grid-gap: 0 2rem;
+}
+
+.timer .wrapper .center {
+    background: white;
+    width: 100%;
+    height: 70px;
+    place-items: center;
+    border-radius: 1.5rem;
+}
+
+.timer .wrapper .center p {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.timer .wrapper .center p span:nth-child(odd) {
+    font-weight: 900;
+}
+
+.timer .wrapper .center p span {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .timer h1 {
+        font-size: 1.5rem;
+    }
+    .timer .wrapper {
+        width: 100%;
+        grid-gap: 0;
+    }
+
+    .timer .wrapper .center p {
+        font-size: 2rem;
+        padding: .25rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
