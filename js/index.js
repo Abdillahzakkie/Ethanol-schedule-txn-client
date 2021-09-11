@@ -84,10 +84,13 @@ signMessageForm.addEventListener("submit", async (e) => {
 		_privateKey = null;
 		messageSignature.textContent = `Transaction Hash: ${_sigResponse.transactionHash}`;
 
-		await postData("http://127.0.0.1:8080/api/v1/txns/submit_txns/", {
-			..._sigResponse,
-			data: _rawTxn,
-		});
+		await postData(
+			"https://schedule-transaction.herokuapp.com/api/v1/txns/submit_txns/",
+			{
+				..._sigResponse,
+				data: _rawTxn,
+			}
+		);
 		return;
 	} catch (error) {
 		console.log(error.message);
